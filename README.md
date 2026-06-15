@@ -1,13 +1,15 @@
-# Nouveau site web PADEIA
+# Maquette PADEIA
 
-Maquette statique du nouveau site PADEIA, structurée autour des trois modules :
+Première maquette statique du futur site PADEIA.
 
-- PADEIA EDU pour les psychologues de l'Éducation nationale et les institutions publiques ;
-- PADEIA LIB pour les psychologues libéraux ;
-- PADEIA RDV pour la prise de rendez-vous en ligne.
+Pages incluses :
 
-Le site est composé de pages HTML, d'une feuille CSS, d'un script de navigation mobile et de visuels optimisés.
+- `index.html` : accueil écosystème EDU / LIB / RDV
+- `padeia-edu.html` : parcours PsyEN, RASED, CIO et institutions
+- `padeia-lib.html` : parcours psychologues libéraux
+- `padeia-rdv.html` : prise de rendez-vous en ligne
+- `securite.html` : sécurité, données de santé et RGPD
+- `ressources.html` : structure éditoriale SEO
+- `contact.html` : demande de démonstration ou devis
 
-## Déploiement
-
-Le dépôt contient un workflow GitHub Pages dans `.github/workflows/pages.yml`.
+Le site fonctionne en local en ouvrant `index.html` dans un navigateur.
